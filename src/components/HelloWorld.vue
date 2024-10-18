@@ -13,6 +13,7 @@ defineProps({
     <h3>
       VueJs Integration and deployment is running fine
       <h2>Hello Github Actions</h2>
+      <h2>Runner is running fine</h2>
     </h3>
   </div>
 </template>

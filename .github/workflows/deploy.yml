@@ -20,7 +20,7 @@ jobs:
             - name: Delete old running container
               run: docker rm -f vue-app || true
             - name: Run docker container
-              run: docker build -t tanvirasifkhan/vue-app .
+              run: docker run --name vue-app -p 5173:5173 -d tanvirasifkhan/vue-app
             - name: Push docker image
               run: docker push tanvirasifkhan/vue-app:latest
     

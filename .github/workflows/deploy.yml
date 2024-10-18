@@ -1,4 +1,4 @@
-name: Vue app deplyment
+name: Vue app deployment
 
 on:
     workflow_run: 

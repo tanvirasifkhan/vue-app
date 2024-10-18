@@ -2,7 +2,7 @@ name: Vue app CI
 
 on:
   push:
-    branches: [ "main" ]
+    branches: [ "master" ]
 
 jobs:
   build:
